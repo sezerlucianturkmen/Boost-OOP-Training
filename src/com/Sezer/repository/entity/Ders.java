@@ -27,6 +27,18 @@ public class Ders {
 		return aciklama;
 	}
 
+	public void setId(String id) {
+		this.id = id;
+	}
+
+	public void setAd(String ad) {
+		this.ad = ad;
+	}
+
+	public void setAciklama(String aciklama) {
+		this.aciklama = aciklama;
+	}
+
 	@Override
 	public String toString() {
 		return "Ders [id=" + id + ", ad=" + ad + ", aciklama=" + aciklama + "]";
